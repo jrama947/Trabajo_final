@@ -1,0 +1,52 @@
+{% extends "AppTerEnt/tempbase.html" %}
+{% load static %}
+
+{% block section1 %}
+
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0">Bienvenido a Travel MyB!</h1>
+                    <h2 class="masthead-subheading mb-0">Te acercamos.</h2>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
+            <div class="bg-circle-4 bg-circle"></div>
+        </header>
+        <h2> {{ mensaje }}</h2>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/bj.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Kawarau Bridge Bungy</h2>
+                            <p> El bungee jumping en el corazón de esta tierra de aventuras es una experiencia que te conecta con la naturaleza de una manera completamente nueva.
+                                El momento en que me encontré al borde del abismo, con el poderoso río Kawarau rugiendo debajo, fue un instante de pura emoción.
+                                La adrenalina fluía a medida que mis pies se despegaban de la plataforma y me precipitaba hacia el vacío. La sensación de caída libre,
+                                seguida de un tirón suave cuando la cuerda se estiró, fue indescriptible. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/bj1.jpg" alt="..." /></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        {% endblock %}

@@ -1,0 +1,83 @@
+{% extends "AppTerEnt/tempbase.html" %}
+{% load static %}
+
+{% block section1 %}
+
+<!-- Header-->
+<header class="masthead text-center text-white">
+    <div class="masthead-content">
+        <div class="container px-5">
+            <h1 class="masthead-heading mb-0">Queres conocer los mejores destinos?</h1>
+            <h2 class="masthead-subheading mb-0"> Nosotros te llevamos.</h2>
+        </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+</header>
+
+      <!-- Content section 1-->
+<section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/nz2.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">NUEVA ZELANDA</h2>
+                    <p>Una tierra de belleza natural deslumbrante, ofrece paisajes impresionantes, desde fiordos y montañas hasta playas doradas.
+                        Su cultura maorí única y su espíritu aventurero hacen de este país un destino inolvidable para los amantes de la naturaleza 
+                        y la aventura.</p>
+                        <a href = "{% url 'Nz' %}">Leer más</a></li>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/indo1.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">INDONESIA</h2>
+                            <p> Un archipiélago mágico en el sudeste asiático, cautiva con sus playas de arena blanca, selvas tropicales exuberantes
+                                 y una rica cultura.</p>
+                                 <a href = "{% url 'Ind' %}">Leer más</a></li>
+                                 <p>Joaquín Rama - 22 de Octubre de 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!-- Content section 3-->
+          <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/jap1.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">JAPON</h2>
+                            <p>Una mezcla cautivadora de tradición y modernidad, te sumerge en una experiencia única. Desde los santuarios antiguos de Kioto
+                                 hasta las luces deslumbrantes de Tokio, Japón ofrece un viaje inolvidable a través de su cultura, gastronomía y paisajes 
+                                 impresionantes."</p>
+                                 <a href = "{% url 'Jap' %}">Leer más</a></li>
+                                 <p>Joaquín Rama - 22 de Octubre de 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>     
+
+
+{% endblock %}

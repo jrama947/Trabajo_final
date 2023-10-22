@@ -1,0 +1,39 @@
+{% extends "AppTerEnt/tempbase.html" %}
+{% load static %}
+
+{% block section1 %}
+
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0">Bienvenido a Travel MyB!</h1>
+                    <h2 class="masthead-subheading mb-0">Te acercamos.</h2>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
+            <div class="bg-circle-4 bg-circle"></div>
+        </header>
+        <h2> {{ mensaje }}</h2>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/nz1.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Los mejores destinos!</h2>
+                            <p>Te contare todos los detalles de mi experiencia en cada lugar que visité.</p>
+                            <p>Registrate y accedé a toda la información!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+
+        {% endblock %}

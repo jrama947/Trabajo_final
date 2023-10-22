@@ -1,0 +1,57 @@
+{% extends "AppTerEnt/tempbase.html" %}
+{% load static %}
+
+{% block section1 %}
+
+<!-- Header-->
+<header class="masthead text-center text-white">
+    <div class="masthead-content">
+        <div class="container px-5">
+            <h1 class="masthead-heading mb-0">Listo para emocionarte? </h1>
+            <h2 class="masthead-subheading mb-0"> Descubrí las atracciones mas increíbles!</h2>
+        </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+</header>
+
+      <!-- Content section 1-->
+<section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/mtcook.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Mount Cook - Nueva Zelanda</h2>
+                    <p>El pico más alto de Nueva Zelanda.</p>
+                    <a href = "{% url 'Mtcook' %}">Leer más</a></li>
+                    <p>Joaquín Rama - 22 de Octubre de 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/indo3.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Arrocera Tegalalang</h2>
+                            <p> Explorando las Terrazas de Arroz en Indonesia</p>
+                            <a href = "{% url 'Arrocera' %}">Leer más</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{% endblock %}

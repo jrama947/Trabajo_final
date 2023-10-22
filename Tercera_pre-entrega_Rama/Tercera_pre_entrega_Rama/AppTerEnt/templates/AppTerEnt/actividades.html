@@ -1,0 +1,58 @@
+{% extends "AppTerEnt/tempbase.html" %}
+{% load static %}
+
+{% block section1 %}
+
+<!-- Header-->
+<header class="masthead text-center text-white">
+    <div class="masthead-content">
+        <div class="container px-5">
+            <h1 class="masthead-heading mb-0">Aventuras te esperan en cada esquina del mundo! </h1>
+            <h2 class="masthead-subheading mb-0"> Hacé que tu viaje sea inolvidable.</h2>
+        </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+</header>
+
+      <!-- Content section 1-->
+<section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/bj.jpg" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Kawarau Bridge Bungy </h2>
+                    <p>Bungee jumping - Queenstown - Nueva Zelanda.</p>
+                    <a href = "{% url 'Bj' %}">Leer más</a></li>
+                    <p>Joaquín Rama - 22 de Octubre de 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/buceo1.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-5">
+                            <h2 class="display-4">Buceo en aguas cristalinas.</h2>
+                            <p>Gili - Indonesia</p>
+                            <a href = "{% url 'Buceo' %}">Leer más</a></li>
+                            <p>Joaquín Rama - 22 de Octubre de 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{% endblock %}

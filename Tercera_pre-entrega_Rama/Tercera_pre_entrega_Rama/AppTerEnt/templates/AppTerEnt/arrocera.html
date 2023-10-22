@@ -1,0 +1,54 @@
+{% extends "AppTerEnt/tempbase.html" %}
+{% load static %}
+
+{% block section1 %}
+
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0">Bienvenido a Travel MyB!</h1>
+                    <h2 class="masthead-subheading mb-0">Te acercamos.</h2>
+                </div>
+            </div>
+            <div class="bg-circle-1 bg-circle"></div>
+            <div class="bg-circle-2 bg-circle"></div>
+            <div class="bg-circle-3 bg-circle"></div>
+            <div class="bg-circle-4 bg-circle"></div>
+        </header>
+        <h2> {{ mensaje }}</h2>
+        <!-- Content section 1-->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/indo3.jpg" alt="..." /></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-5">
+                            <h2 class="display-4">Terrada de Arroz Tegalalang </h2>
+                            <p> Este pintoresco paisaje es un testimonio de la maestría de los agricultores locales, que han esculpido meticulosamente estas terrazas en las laderas de las colinas durante generaciones.
+
+                                Mientras caminas por los senderos serpenteantes entre las terrazas, estarás rodeado de un exuberante verdor
+                                y la paz que solo la naturaleza puede brindar. Observa a los agricultores locales mientras trabajan en sus
+                                campos y descubre la belleza de los sistemas de riego tradicionales que han sostenido esta región durante siglos. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Content section 2-->
+        <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-5"><img class="img-fluid rounded-circle" src="../../static/AppTerEnt/assets/img/indo5.jpg" alt="..." /></div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        {% endblock %}
