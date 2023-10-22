@@ -1,4 +1,6 @@
 # Trabajo_final
+El trabajo final fue realizado 100% por mi en todas sus etapas.
+
 Se implementó web de información de destinos de viaje, en la cual se puede acceder a diferentes secciones y de cada una de ellas siempre volver al inicio. Además, es posible mediante formularios agregar registros a la base de datos y consultarlos.
 
 El proyecto "Tercera_pre_entrega_Rama" incluye:
